@@ -14,7 +14,7 @@
     <style>
         .games-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 12px;
             margin: 16px 0;
             width: 100%;
@@ -22,8 +22,8 @@
 
         .game-card {
             background: white;
-            border: 2px solid #333;
-            border-radius: 0;
+            border: 1px solid #ddd;
+            border-radius: 8px;
             padding: 0;
             overflow: hidden;
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
@@ -35,16 +35,15 @@
         .game-card-header {
             background: linear-gradient(135deg, #1e3a8a 0%, #176CF8 100%);
             color: white;
-            padding: 0;
+            padding: 12px;
             text-align: center;
             border-bottom: 2px solid #0d47a1;
         }
 
         .game-card-header h3 {
             margin: 0;
-            font-size: 16px;
+            font-size: 18px;
             font-weight: bold;
-            padding: 10px;
         }
 
         .game-card-body {
@@ -52,19 +51,17 @@
             flex: 1;
             display: flex;
             flex-direction: column;
-            justify-content: flex-start;
+            justify-content: space-between;
         }
 
         .game-time {
-            font-size: 12px;
-            color: #333;
-            margin-bottom: 0;
-            font-weight: bold;
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 8px;
         }
 
         .game-link {
             margin-bottom: 12px;
-            margin-top: 8px;
         }
 
         .game-link a {
@@ -73,10 +70,9 @@
             background-color: #176CF8;
             color: white;
             text-decoration: none;
-            border-radius: 0;
-            font-size: 12px;
+            border-radius: 4px;
+            font-size: 13px;
             transition: background-color 0.2s;
-            font-weight: bold;
         }
 
         .game-link a:hover {
@@ -84,29 +80,28 @@
         }
 
         .game-results {
-            display: flex;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
             gap: 8px;
-            margin-top: auto;
         }
 
         .result-box {
             background: #f5f5f5;
             border: 1px solid #ddd;
-            border-radius: 0;
-            padding: 8px;
+            border-radius: 4px;
+            padding: 10px;
             text-align: center;
-            flex: 1;
         }
 
         .result-label {
-            font-size: 11px;
-            color: #666;
+            font-size: 12px;
+            color: #999;
             font-weight: 600;
-            margin-bottom: 2px;
+            margin-bottom: 4px;
         }
 
         .result-number {
-            font-size: 22px;
+            font-size: 24px;
             font-weight: bold;
             color: #176CF8;
         }
@@ -159,6 +154,49 @@
                 </div>
             </section>
 
+            <!-- PROMOTIONAL SECTION - KUNAL BHAI BOX (TOP) -->
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="card" style="background: linear-gradient(135deg, rgba(30, 58, 138, 0.9) 0%, rgba(0, 0, 0, 0.9) 90%); border-radius: 12px; margin: 20px auto; max-width: 900px; color: w[...]
+                        <div class="card-body">
+                            <p style="font-size: 12px; margin-bottom: 1rem;">
+                                <u style="font-weight: bold; font-size: large;">🔥 सीधे सट्टा कंपनी का No. 1 खिलाडी</u>
+                            </p>
+                            <h2 style="font-weight: bold; font-size: 30px; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); margin-bottom: 20px;">KUNAL BHAI KHAIWAL</h2>
+                            
+                            <table style="margin: 20px auto; color: white; width: 100%; max-width: 500px; border-collapse: collapse;">
+                                <thead>
+                                    <tr style="background-color: rgba(255,255,255,0.1);">
+                                        <th style="padding: 10px; border: 1px solid rgba(255,255,255,0.2);">बाजार का नाम</th>
+                                        <th style="padding: 10px; border: 1px solid rgba(255,255,255,0.2);">समय</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">सदर बाजार</td><td style="padding: 8px; border: 1px solid rgba(255,255,25[...]
+                                    <tr><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">मुंबई बाजार</td><td style="padding: 8px; border: 1px solid rgba(255,[...]
+                                    <tr><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">दिल्ली बाजार</td><td style="padding: 8px; border: 1px solid rgba(2[...]
+                                    <tr><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">श्री गणेश</td><td style="padding: 8px; border: 1px solid rgba(255,255,25[...]
+                                    <tr><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">मनी बैंक</td><td style="padding: 8px; border: 1px solid rgba(255,255,255,0[...]
+                                    <tr><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">फरीदाबाद</td><td style="padding: 8px; border: 1px solid rgba(255,255,255[...]
+                                    <tr><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">जयपुर सिटी</td><td style="padding: 8px; border: 1px solid rgba(255,255[...]
+                                    <tr><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">गाजियाबाद</td><td style="padding: 8px; border: 1px solid rgba(255,255,[...]
+                                    <tr><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">गली गोल्ड्स</td><td style="padding: 8px; border: 1px solid rgba(255,[...]
+                                    <tr><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">गली</td><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">11:20 P[...]
+                                    <tr><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">दिसावर</td><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);[...]
+                                </tbody>
+                            </table>
+
+                            <div style="margin-top: 20px; background-color: rgba(0,0,0,0.3); padding: 15px; border-radius: 10px;">
+                                <p style="font-size: 16px; margin-bottom: 15px;">👉🏻 Game Play करने के लिए नीचे दिए गए लिंक पर क्लिक[...]
+                                <a href="https://wa.me/919654662229" target="_blank" style="display: inline-block; padding: 10px 30px; background: linear-gradient(45deg, #128C7E, #25D366); color:[...]
+                                    WhatsApp पर मैसेज करें 💬
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <!-- MAIN CONTENT - GAME RESULTS -->
             <div class="main-content">
                 <!-- TIMEWISE RESULTS TABLE -->
@@ -193,9 +231,11 @@
                             <h3>GHAZIABAD</h3>
                         </div>
                         <div class="game-card-body">
-                            <div class="game-time">at 08:30 PM</div>
-                            <div class="game-link">
-                                <a href="satta-king-record-chart.aspx?CatId=3">Record Chart</a>
+                            <div>
+                                <div class="game-time">at 08:30 PM</div>
+                                <div class="game-link">
+                                    <a href="satta-king-record-chart.aspx?CatId=3">Record Chart</a>
+                                </div>
                             </div>
                             <div class="game-results">
                                 <div class="result-box">
@@ -216,9 +256,11 @@
                             <h3>GALI</h3>
                         </div>
                         <div class="game-card-body">
-                            <div class="game-time">at 11:20 PM</div>
-                            <div class="game-link">
-                                <a href="satta-king-record-chart.aspx?CatId=2">Record Chart</a>
+                            <div>
+                                <div class="game-time">at 11:20 PM</div>
+                                <div class="game-link">
+                                    <a href="satta-king-record-chart.aspx?CatId=2">Record Chart</a>
+                                </div>
                             </div>
                             <div class="game-results">
                                 <div class="result-box">
@@ -239,9 +281,11 @@
                             <h3>FARIDABAD</h3>
                         </div>
                         <div class="game-card-body">
-                            <div class="game-time">at 05:50 PM</div>
-                            <div class="game-link">
-                                <a href="satta-king-record-chart.aspx?CatId=6">Record Chart</a>
+                            <div>
+                                <div class="game-time">at 05:50 PM</div>
+                                <div class="game-link">
+                                    <a href="satta-king-record-chart.aspx?CatId=6">Record Chart</a>
+                                </div>
                             </div>
                             <div class="game-results">
                                 <div class="result-box">
@@ -262,9 +306,11 @@
                             <h3>SHREE GANESH</h3>
                         </div>
                         <div class="game-card-body">
-                            <div class="game-time">at 04:20 PM</div>
-                            <div class="game-link">
-                                <a href="satta-king-record-chart.aspx?CatId=4">Record Chart</a>
+                            <div>
+                                <div class="game-time">at 04:20 PM</div>
+                                <div class="game-link">
+                                    <a href="satta-king-record-chart.aspx?CatId=4">Record Chart</a>
+                                </div>
                             </div>
                             <div class="game-results">
                                 <div class="result-box">
@@ -280,7 +326,7 @@
                     </div>
                 </div>
 
-                <!-- CHART SECTION -->
+                <!-- CHART SECTION (BOTTOM) -->
                 <div id="mix-chart" class="chart">
                     <div class="stop22">
                         <h1>Monthly Satta King Result Chart of April 2026 for Gali, Desawar, Ghaziabad and Faridabad</h1>
@@ -311,49 +357,6 @@
                     <a href="satta-king-record-chart.aspx">
                         <h1 class="nav-text">April-2026 Ka Gali, Desawar, Ghaziabad Aur Faridabad Ka Latest Chart Dekhne Ke Liye Yahan Click Kariye</h1>
                     </a>
-                </div>
-            </div>
-
-            <!-- PROMOTIONAL SECTION -->
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="card" style="background: linear-gradient(135deg, rgba(30, 58, 138, 0.9) 0%, rgba(0, 0, 0, 0.9) 90%); border-radius: 12px; margin: 20px auto; max-width: 900px; color: w[...]
-                        <div class="card-body">
-                            <p style="font-size: 12px; margin-bottom: 1rem;">
-                                <u style="font-weight: bold; font-size: large;">🔥 सीधे सट्टा कंपनी का No. 1 खिलाडी</u>
-                            </p>
-                            <h2 style="font-weight: bold; font-size: 30px; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); margin-bottom: 20px;">KUNAL BHAI KHAIWAL</h2>
-                            
-                            <table style="margin: 20px auto; color: white; width: 100%; max-width: 500px; border-collapse: collapse;">
-                                <thead>
-                                    <tr style="background-color: rgba(255,255,255,0.1);">
-                                        <th style="padding: 10px; border: 1px solid rgba(255,255,255,0.2);">बाजार का नाम</th>
-                                        <th style="padding: 10px; border: 1px solid rgba(255,255,255,0.2);">समय</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">सदर बाजार</td><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.[...]
-                                    <tr><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">मुंबई बाजार</td><td style="padding: 8px; border: 1px solid rgba(255,255,[...]
-                                    <tr><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">दिल्ली बाजार</td><td style="padding: 8px; border: 1px solid rgba(255,2[...]
-                                    <tr><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">श्री गणेश</td><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.[...]
-                                    <tr><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">मनी बैंक</td><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);[...]
-                                    <tr><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">फरीदाबाद</td><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1[...]
-                                    <tr><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">जयपुर सिटी</td><td style="padding: 8px; border: 1px solid rgba(255,255,255[...]
-                                    <tr><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">गाजियाबाद</td><td style="padding: 8px; border: 1px solid rgba(255,255,255,[...]
-                                    <tr><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">गली गोल्ड्स</td><td style="padding: 8px; border: 1px solid rgba(255,255,[...]
-                                    <tr><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">गली</td><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">11:20 PM</t[...]
-                                    <tr><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">दिसावर</td><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">02[...]
-                                </tbody>
-                            </table>
-
-                            <div style="margin-top: 20px; background-color: rgba(0,0,0,0.3); padding: 15px; border-radius: 10px;">
-                                <p style="font-size: 16px; margin-bottom: 15px;">👉🏻 Game Play करने के लिए नीचे दिए गए लिंक पर क्लिक क[...]
-                                <a href="https://wa.me/919654662229" target="_blank" style="display: inline-block; padding: 10px 30px; background: linear-gradient(45deg, #128C7E, #25D366); color: whi[...]
-                                    WhatsApp पर मैसेज करें 💬
-                                </a>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
 
@@ -440,7 +443,7 @@
 
                     <div style="margin-top: 20px; padding: 15px; background: white; border-radius: 8px;">
                         <h3 style="color: red; margin-bottom: 10px;">Satta King Result & Record Chart Updates</h3>
-                        <p>Check daily superfast Satta King results for April 2026 including Gali, Desawar, Ghaziabad, and Faridabad. Get accurate updates, latest results, and complete old record cha[...]
+                        <p>Check daily superfast Satta King results for April 2026 including Gali, Desawar, Ghaziabad, and Faridabad. Get accurate updates, latest results, and complete old record[...]
                     </div>
                 </div>
 
