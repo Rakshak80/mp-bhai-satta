@@ -14,7 +14,7 @@
     <style>
         .games-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 12px;
             margin: 16px 0;
             width: 100%;
@@ -22,8 +22,8 @@
 
         .game-card {
             background: white;
-            border: 1px solid #ddd;
-            border-radius: 8px;
+            border: 2px solid #333;
+            border-radius: 0;
             padding: 0;
             overflow: hidden;
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
@@ -35,15 +35,16 @@
         .game-card-header {
             background: linear-gradient(135deg, #1e3a8a 0%, #176CF8 100%);
             color: white;
-            padding: 12px;
+            padding: 0;
             text-align: center;
             border-bottom: 2px solid #0d47a1;
         }
 
         .game-card-header h3 {
             margin: 0;
-            font-size: 18px;
+            font-size: 16px;
             font-weight: bold;
+            padding: 10px;
         }
 
         .game-card-body {
@@ -51,17 +52,19 @@
             flex: 1;
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
+            justify-content: flex-start;
         }
 
         .game-time {
-            font-size: 14px;
-            color: #666;
-            margin-bottom: 8px;
+            font-size: 12px;
+            color: #333;
+            margin-bottom: 0;
+            font-weight: bold;
         }
 
         .game-link {
             margin-bottom: 12px;
+            margin-top: 8px;
         }
 
         .game-link a {
@@ -70,9 +73,10 @@
             background-color: #176CF8;
             color: white;
             text-decoration: none;
-            border-radius: 4px;
-            font-size: 13px;
+            border-radius: 0;
+            font-size: 12px;
             transition: background-color 0.2s;
+            font-weight: bold;
         }
 
         .game-link a:hover {
@@ -80,28 +84,29 @@
         }
 
         .game-results {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
+            display: flex;
             gap: 8px;
+            margin-top: auto;
         }
 
         .result-box {
             background: #f5f5f5;
             border: 1px solid #ddd;
-            border-radius: 4px;
-            padding: 10px;
+            border-radius: 0;
+            padding: 8px;
             text-align: center;
+            flex: 1;
         }
 
         .result-label {
-            font-size: 12px;
-            color: #999;
+            font-size: 11px;
+            color: #666;
             font-weight: 600;
-            margin-bottom: 4px;
+            margin-bottom: 2px;
         }
 
         .result-number {
-            font-size: 24px;
+            font-size: 22px;
             font-weight: bold;
             color: #176CF8;
         }
@@ -135,18 +140,18 @@
             <!-- INFO SECTION -->
             <section class="info-section">
                 <h1 class="section-title">Satta King Daily Results</h1>
-                <p>Get daily superfast Satta King results for April 2026 including Gali, Desawar, Ghaziabad, and Faridabad. Check updated leak numbers along with complete old Satta King record charts from 2015 to 2026.</p>
+                <p>Get daily superfast Satta King results for April 2026 including Gali, Desawar, Ghaziabad, and Faridabad. Check updated leak numbers along with complete old Satta King record ch[...]
                 
                 <div class="disclaimer">
-                    <p style="color: blue;">🔔 <strong>Thekingsatta.com</strong> is one of the most popular gaming discussion forums where players can freely share information and opinions. We are an independent platform and are not affiliated, associated, or in partnership with any gaming company or organization.</p>
+                    <p style="color: blue;">🔔 <strong>Thekingsatta.com</strong> is one of the most popular gaming discussion forums where players can freely share information and opinions. We [...]
                 </div>
                 
                 <div class="warning">
-                    <p style="color: red;">⚠️ <strong>कृपया ध्यान दें:</strong> लीक गेम के नाम पर किसी को कोई पैसा न दें, ना पहले ना बाद में। यह सिर्फ एक discussion forum है।</p>
+                    <p style="color: red;">⚠️ <strong>कृपया ध्यान दें:</strong> लीक गेम के नाम पर किसी को कोई पैसा[...]
                 </div>
                 
                 <div class="contact-info">
-                    <h2 style="color: green;">हमसे संपर्क करने के लिए ➡️ <a href="https://wa.me/917042078406" style="color: blue;">यहाँ क्लिक करें</a></h2>
+                    <h2 style="color: green;">हमसे संपर्क करने के लिए ➡️ <a href="https://wa.me/917042078406" style="color: blue;">यहाँ क्ल[...]
                 </div>
                 
                 <div class="timestamp">
@@ -188,11 +193,9 @@
                             <h3>GHAZIABAD</h3>
                         </div>
                         <div class="game-card-body">
-                            <div>
-                                <div class="game-time">at 08:30 PM</div>
-                                <div class="game-link">
-                                    <a href="satta-king-record-chart.aspx?CatId=3">Record Chart</a>
-                                </div>
+                            <div class="game-time">at 08:30 PM</div>
+                            <div class="game-link">
+                                <a href="satta-king-record-chart.aspx?CatId=3">Record Chart</a>
                             </div>
                             <div class="game-results">
                                 <div class="result-box">
@@ -213,11 +216,9 @@
                             <h3>GALI</h3>
                         </div>
                         <div class="game-card-body">
-                            <div>
-                                <div class="game-time">at 11:20 PM</div>
-                                <div class="game-link">
-                                    <a href="satta-king-record-chart.aspx?CatId=2">Record Chart</a>
-                                </div>
+                            <div class="game-time">at 11:20 PM</div>
+                            <div class="game-link">
+                                <a href="satta-king-record-chart.aspx?CatId=2">Record Chart</a>
                             </div>
                             <div class="game-results">
                                 <div class="result-box">
@@ -238,11 +239,9 @@
                             <h3>FARIDABAD</h3>
                         </div>
                         <div class="game-card-body">
-                            <div>
-                                <div class="game-time">at 05:50 PM</div>
-                                <div class="game-link">
-                                    <a href="satta-king-record-chart.aspx?CatId=6">Record Chart</a>
-                                </div>
+                            <div class="game-time">at 05:50 PM</div>
+                            <div class="game-link">
+                                <a href="satta-king-record-chart.aspx?CatId=6">Record Chart</a>
                             </div>
                             <div class="game-results">
                                 <div class="result-box">
@@ -263,11 +262,9 @@
                             <h3>SHREE GANESH</h3>
                         </div>
                         <div class="game-card-body">
-                            <div>
-                                <div class="game-time">at 04:20 PM</div>
-                                <div class="game-link">
-                                    <a href="satta-king-record-chart.aspx?CatId=4">Record Chart</a>
-                                </div>
+                            <div class="game-time">at 04:20 PM</div>
+                            <div class="game-link">
+                                <a href="satta-king-record-chart.aspx?CatId=4">Record Chart</a>
                             </div>
                             <div class="game-results">
                                 <div class="result-box">
@@ -283,517 +280,485 @@
                     </div>
                 </div>
 
-                <!-- NEXT GAMES SECTION -->
-                <div class="board-section" style="border-left: 8px solid #FF5252; margin-top: 30px;">
-                    <div style="vertical-align: middle; font: normal 600 1em Arial, sans-serif; height: 40px; padding-left: 16px; background-color: #F1F1F1;">
-                        <h3>NEXT GAMES</h3>
+                <!-- CHART SECTION -->
+                <div id="mix-chart" class="chart">
+                    <div class="stop22">
+                        <h1>Monthly Satta King Result Chart of April 2026 for Gali, Desawar, Ghaziabad and Faridabad</h1>
                     </div>
-                </div>
-                <table class="quick-result-board">
-                    <tbody id="NextGames"></tbody>
-                </table>
-
-                <!-- REST GAMES SECTION -->
-                <div class="board-section" style="border-left: 8px solid #FF5252; margin-top: 30px;">
-                    <div style="vertical-align: middle; font: normal 600 1em Arial, sans-serif; height: 40px; padding-left: 16px; background-color: #F1F1F1;">
-                        <h3>REST GAMES</h3>
+                    <div style="overflow-x: auto; width: 100%;">
+                        <table class="chart-table" id="monthly-chart" style="width: 100%; border-collapse: collapse;">
+                            <!-- Chart data will be populated here -->
+                        </table>
                     </div>
-                </div>
-                <table class="quick-result-board">
-                    <tbody id="RestGames"></tbody>
-                </table>
-            </div>
-
-            <!-- CHART SECTION -->
-            <div id="mix-chart" class="chart">
-                <div class="stop22">
-                    <h1>Monthly Satta King Result Chart of April 2026 for Gali, Desawar, Ghaziabad and Faridabad</h1>
-                </div>
-                <div style="overflow-x: auto; width: 100%;">
-                    <table class="chart-table" id="monthly-chart" style="width: 100%; border-collapse: collapse;">
-                        <!-- Chart data will be populated here -->
+                    <table class="chart-table">
+                        <tr class="option">
+                            <td class="e-link" title="March-2026 Satta Result Chart" colspan="2">
+                                <a href="satta-king-record-chart.aspx?month=3&year=2026">
+                                    <h1 class="aero">← Mar 2026</h1>
+                                </a>
+                            </td>
+                            <td class="s-link" colspan="1">-</td>
+                            <td class="e-link" title="May-2026 Satta Result Chart" colspan="2">
+                                <a href="satta-king-record-chart.aspx?month=5&year=2026">
+                                    <h1 class="aero">May 2026 →</h1>
+                                </a>
+                            </td>
+                        </tr>
                     </table>
                 </div>
-                <table class="chart-table">
-                    <tr class="option">
-                        <td class="e-link" title="March-2026 Satta Result Chart" colspan="2">
-                            <a href="satta-king-record-chart.aspx?month=3&year=2026">
-                                <h1 class="aero">← Mar 2026</h1>
-                            </a>
-                        </td>
-                        <td class="s-link" colspan="1">-</td>
-                        <td class="e-link" title="May-2026 Satta Result Chart" colspan="2">
-                            <a href="satta-king-record-chart.aspx?month=5&year=2026">
-                                <h1 class="aero">May 2026 →</h1>
-                            </a>
-                        </td>
-                    </tr>
-                </table>
+
+                <div class="nav-link">
+                    <a href="satta-king-record-chart.aspx">
+                        <h1 class="nav-text">April-2026 Ka Gali, Desawar, Ghaziabad Aur Faridabad Ka Latest Chart Dekhne Ke Liye Yahan Click Kariye</h1>
+                    </a>
+                </div>
             </div>
 
-            <div class="nav-link">
-                <a href="satta-king-record-chart.aspx">
-                    <h1 class="nav-text">April-2026 Ka Gali, Desawar, Ghaziabad Aur Faridabad Ka Latest Chart Dekhne Ke Liye Yahan Click Kariye</h1>
-                </a>
-            </div>
-        </div>
+            <!-- PROMOTIONAL SECTION -->
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="card" style="background: linear-gradient(135deg, rgba(30, 58, 138, 0.9) 0%, rgba(0, 0, 0, 0.9) 90%); border-radius: 12px; margin: 20px auto; max-width: 900px; color: w[...]
+                        <div class="card-body">
+                            <p style="font-size: 12px; margin-bottom: 1rem;">
+                                <u style="font-weight: bold; font-size: large;">🔥 सीधे सट्टा कंपनी का No. 1 खिलाडी</u>
+                            </p>
+                            <h2 style="font-weight: bold; font-size: 30px; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); margin-bottom: 20px;">KUNAL BHAI KHAIWAL</h2>
+                            
+                            <table style="margin: 20px auto; color: white; width: 100%; max-width: 500px; border-collapse: collapse;">
+                                <thead>
+                                    <tr style="background-color: rgba(255,255,255,0.1);">
+                                        <th style="padding: 10px; border: 1px solid rgba(255,255,255,0.2);">बाजार का नाम</th>
+                                        <th style="padding: 10px; border: 1px solid rgba(255,255,255,0.2);">समय</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">सदर बाजार</td><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.[...]
+                                    <tr><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">मुंबई बाजार</td><td style="padding: 8px; border: 1px solid rgba(255,255,[...]
+                                    <tr><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">दिल्ली बाजार</td><td style="padding: 8px; border: 1px solid rgba(255,2[...]
+                                    <tr><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">श्री गणेश</td><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.[...]
+                                    <tr><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">मनी बैंक</td><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);[...]
+                                    <tr><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">फरीदाबाद</td><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1[...]
+                                    <tr><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">जयपुर सिटी</td><td style="padding: 8px; border: 1px solid rgba(255,255,255[...]
+                                    <tr><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">गाजियाबाद</td><td style="padding: 8px; border: 1px solid rgba(255,255,255,[...]
+                                    <tr><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">गली गोल्ड्स</td><td style="padding: 8px; border: 1px solid rgba(255,255,[...]
+                                    <tr><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">गली</td><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">11:20 PM</t[...]
+                                    <tr><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">दिसावर</td><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">02[...]
+                                </tbody>
+                            </table>
 
-        <!-- PROMOTIONAL SECTION -->
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <div class="card" style="background: linear-gradient(135deg, rgba(30, 58, 138, 0.9) 0%, rgba(0, 0, 0, 0.9) 90%); border-radius: 12px; margin: 20px auto; max-width: 900px; color: white; padding: 20px;">
-                    <div class="card-body">
-                        <p style="font-size: 12px; margin-bottom: 1rem;">
-                            <u style="font-weight: bold; font-size: large;">🔥 सीधे सट्टा कंपनी का No. 1 खिलाडी</u>
-                        </p>
-                        <h2 style="font-weight: bold; font-size: 30px; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); margin-bottom: 20px;">KUNAL BHAI KHAIWAL</h2>
-                        
-                        <table style="margin: 20px auto; color: white; width: 100%; max-width: 500px; border-collapse: collapse;">
-                            <thead>
-                                <tr style="background-color: rgba(255,255,255,0.1);">
-                                    <th style="padding: 10px; border: 1px solid rgba(255,255,255,0.2);">बाजार का नाम</th>
-                                    <th style="padding: 10px; border: 1px solid rgba(255,255,255,0.2);">समय</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">सदर बाजार</td><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">01:10 PM</td></tr>
-                                <tr><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">मुंबई बाजार</td><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">02:00 PM</td></tr>
-                                <tr><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">दिल्ली बाजार</td><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">02:50 PM</td></tr>
-                                <tr><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">श्री गणेश</td><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">04:20 PM</td></tr>
-                                <tr><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">मनी बैंक</td><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">05:20 PM</td></tr>
-                                <tr><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">फरीदाबाद</td><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">05:50 PM</td></tr>
-                                <tr><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">जयपुर सिटी</td><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">07:20 PM</td></tr>
-                                <tr><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">गाजियाबाद</td><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">08:30 PM</td></tr>
-                                <tr><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">गली गोल्ड्स</td><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">10:15 PM</td></tr>
-                                <tr><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">गली</td><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">11:20 PM</td></tr>
-                                <tr><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">दिसावर</td><td style="padding: 8px; border: 1px solid rgba(255,255,255,0.1);">02:30 AM</td></tr>
-                            </tbody>
-                        </table>
-
-                        <div style="margin-top: 20px; background-color: rgba(0,0,0,0.3); padding: 15px; border-radius: 10px;">
-                            <p style="font-size: 16px; margin-bottom: 15px;">👉🏻 Game Play करने के लिए नीचे दिए गए लिंक पर क्लिक करें!</p>
-                            <a href="https://wa.me/919654662229" target="_blank" style="display: inline-block; padding: 10px 30px; background: linear-gradient(45deg, #128C7E, #25D366); color: white; border-radius: 25px; text-decoration: none; font-weight: bold; font-size: 16px;">
-                                WhatsApp पर मैसेज करें 💬
-                            </a>
+                            <div style="margin-top: 20px; background-color: rgba(0,0,0,0.3); padding: 15px; border-radius: 10px;">
+                                <p style="font-size: 16px; margin-bottom: 15px;">👉🏻 Game Play करने के लिए नीचे दिए गए लिंक पर क्लिक क[...]
+                                <a href="https://wa.me/919654662229" target="_blank" style="display: inline-block; padding: 10px 30px; background: linear-gradient(45deg, #128C7E, #25D366); color: whi[...]
+                                    WhatsApp पर मैसेज करें 💬
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!-- FOOTER -->
-        <footer id="footer">
-            <div id="chart-form">
-                <h2>Satta King Results By Month & Year</h2>
-                <p>यहाँ आप महीने और साल चुनकर गली, देसावर, गाजियाबाद और फरीदाबाद का संयुक्त चार्ट देख सकते हैं।</p>
-                
-                <form method="post" action="./" id="search-form">
-                    <select name="month" id="dropMonth" class="form-control" required>
-                        <option value="">-Select Month-</option>
-                        <option value="1">January</option>
-                        <option value="2">February</option>
-                        <option value="3">March</option>
-                        <option value="4" selected>April</option>
-                        <option value="5">May</option>
-                        <option value="6">June</option>
-                        <option value="7">July</option>
-                        <option value="8">August</option>
-                        <option value="9">September</option>
-                        <option value="10">October</option>
-                        <option value="11">November</option>
-                        <option value="12">December</option>
-                    </select>
+            <!-- FOOTER -->
+            <footer id="footer">
+                <div id="chart-form">
+                    <h2>Satta King Results By Month & Year</h2>
+                    <p>यहाँ आप महीने और साल चुनकर गली, देसावर, गाजियाबाद और फरीदाबाद का संय[...]
+                    
+                    <form method="post" action="./" id="search-form">
+                        <select name="month" id="dropMonth" class="form-control" required>
+                            <option value="">-Select Month-</option>
+                            <option value="1">January</option>
+                            <option value="2">February</option>
+                            <option value="3">March</option>
+                            <option value="4" selected>April</option>
+                            <option value="5">May</option>
+                            <option value="6">June</option>
+                            <option value="7">July</option>
+                            <option value="8">August</option>
+                            <option value="9">September</option>
+                            <option value="10">October</option>
+                            <option value="11">November</option>
+                            <option value="12">December</option>
+                        </select>
 
-                    <select name="year" id="dropYear" class="form-control" required>
-                        <option value="">-Select Year-</option>
-                        <option value="2035">2035</option>
-                        <option value="2034">2034</option>
-                        <option value="2033">2033</option>
-                        <option value="2032">2032</option>
-                        <option value="2031">2031</option>
-                        <option value="2030">2030</option>
-                        <option value="2029">2029</option>
-                        <option value="2028">2028</option>
-                        <option value="2027">2027</option>
-                        <option value="2026" selected>2026</option>
-                        <option value="2025">2025</option>
-                        <option value="2024">2024</option>
-                        <option value="2023">2023</option>
-                        <option value="2022">2022</option>
-                        <option value="2021">2021</option>
-                        <option value="2020">2020</option>
-                        <option value="2019">2019</option>
-                        <option value="2018">2018</option>
-                        <option value="2017">2017</option>
-                        <option value="2016">2016</option>
-                        <option value="2015">2015</option>
-                    </select>
+                        <select name="year" id="dropYear" class="form-control" required>
+                            <option value="">-Select Year-</option>
+                            <option value="2035">2035</option>
+                            <option value="2034">2034</option>
+                            <option value="2033">2033</option>
+                            <option value="2032">2032</option>
+                            <option value="2031">2031</option>
+                            <option value="2030">2030</option>
+                            <option value="2029">2029</option>
+                            <option value="2028">2028</option>
+                            <option value="2027">2027</option>
+                            <option value="2026" selected>2026</option>
+                            <option value="2025">2025</option>
+                            <option value="2024">2024</option>
+                            <option value="2023">2023</option>
+                            <option value="2022">2022</option>
+                            <option value="2021">2021</option>
+                            <option value="2020">2020</option>
+                            <option value="2019">2019</option>
+                            <option value="2018">2018</option>
+                            <option value="2017">2017</option>
+                            <option value="2016">2016</option>
+                            <option value="2015">2015</option>
+                        </select>
 
-                    <select name="category" id="ddlCategory" class="form-control" required>
-                        <option value="">--Select Category--</option>
-                        <option value="1">DISHWAR</option>
-                        <option value="2">GALI</option>
-                        <option value="3">GHAZIABAD</option>
-                        <option value="4">SHREE GANESH</option>
-                        <option value="6">FARIDABAD</option>
-                        <option value="14">KANPUR CITY</option>
-                        <option value="72">NEW DELHI BAZAR</option>
-                        <option value="136">FARIDABAD GOLD</option>
-                        <option value="153">DHAN VERSA</option>
-                        <option value="164">NOIDA BAZAR</option>
-                        <option value="165">DELHI BAZAR</option>
-                        <option value="166">DELHI GALI</option>
-                        <option value="167">ALWAR MATKA</option>
-                        <option value="186">DELHI GOLD</option>
-                        <option value="193">CHAMBAL GOLD</option>
-                        <option value="195">SADAR MATKA</option>
-                        <option value="199">MATHURA JUNCTION</option>
-                        <option value="200">JAIPUR CITY</option>
-                        <option value="201">CHAR MINAR</option>
-                        <option value="202">MUMBAI BAZAR</option>
-                        <option value="203">UP BAZAR</option>
-                        <option value="204">MURADABAD BAZAR</option>
-                        <option value="208">OLD DELHI</option>
-                        <option value="209">UP KING DELHI</option>
-                        <option value="10209">KISMAT KA SATTA</option>
-                        <option value="10210">VIP AGRA</option>
-                    </select>
+                        <select name="category" id="ddlCategory" class="form-control" required>
+                            <option value="">--Select Category--</option>
+                            <option value="1">DISHWAR</option>
+                            <option value="2">GALI</option>
+                            <option value="3">GHAZIABAD</option>
+                            <option value="4">SHREE GANESH</option>
+                            <option value="6">FARIDABAD</option>
+                            <option value="14">KANPUR CITY</option>
+                            <option value="72">NEW DELHI BAZAR</option>
+                            <option value="136">FARIDABAD GOLD</option>
+                            <option value="153">DHAN VERSA</option>
+                            <option value="164">NOIDA BAZAR</option>
+                            <option value="165">DELHI BAZAR</option>
+                            <option value="166">DELHI GALI</option>
+                            <option value="167">ALWAR MATKA</option>
+                            <option value="186">DELHI GOLD</option>
+                            <option value="193">CHAMBAL GOLD</option>
+                            <option value="195">SADAR MATKA</option>
+                            <option value="199">MATHURA JUNCTION</option>
+                            <option value="200">JAIPUR CITY</option>
+                            <option value="201">CHAR MINAR</option>
+                            <option value="202">MUMBAI BAZAR</option>
+                            <option value="203">UP BAZAR</option>
+                            <option value="204">MURADABAD BAZAR</option>
+                            <option value="208">OLD DELHI</option>
+                            <option value="209">UP KING DELHI</option>
+                            <option value="10209">KISMAT KA SATTA</option>
+                            <option value="10210">VIP AGRA</option>
+                        </select>
 
-                    <button type="submit" class="btn btn-primary">Search Now</button>
-                </form>
+                        <button type="submit" class="btn btn-primary">Search Now</button>
+                    </form>
 
-                <div style="margin-top: 20px; padding: 15px; background: white; border-radius: 8px;">
-                    <h3 style="color: red; margin-bottom: 10px;">Satta King Result & Record Chart Updates</h3>
-                    <p>Check daily superfast Satta King results for April 2026 including Gali, Desawar, Ghaziabad, and Faridabad. Get accurate updates, latest results, and complete old record charts from previous years in one place. Stay connected for fast result updates and detailed chart information.</p>
+                    <div style="margin-top: 20px; padding: 15px; background: white; border-radius: 8px;">
+                        <h3 style="color: red; margin-bottom: 10px;">Satta King Result & Record Chart Updates</h3>
+                        <p>Check daily superfast Satta King results for April 2026 including Gali, Desawar, Ghaziabad, and Faridabad. Get accurate updates, latest results, and complete old record cha[...]
+                    </div>
                 </div>
+
+                <div style="position: fixed; bottom: 20px; right: 8px;">
+                    <input type="submit" value="Refresh" class="refresh-btn" onclick="location.reload();">
+                </div>
+            </footer>
+        </div>
+
+        <!-- WHATSAPP WIDGET -->
+        <div id="wa-icon">
+            <span class="badge">3</span>
+            <img src="img/wh.png" alt="WhatsApp">
+        </div>
+
+        <div id="wa-popup">
+            <div class="wa-top">
+                <img src="img/149071.png" class="wa-user" alt="Vikas Bhai">
+                <h3>Vikas Bhai</h3>
+                <span id="wa-close">&times;</span>
             </div>
-
-            <div style="position: fixed; bottom: 20px; right: 8px;">
-                <input type="submit" value="Refresh" class="refresh-btn" onclick="location.reload();">
+            <div class="wa-content">
+                <p>Apni game ka result hamari website par lagwane ke liye WhatsApp par sampark karein.</p>
+                <a href="https://wa.me/919266205063" class="wa-btn" target="_blank">
+                    WHATSAPP ME<br>+91 9266205063
+                </a>
             </div>
-        </footer>
-    </main>
-
-    <!-- WHATSAPP WIDGET -->
-    <div id="wa-icon">
-        <span class="badge">3</span>
-        <img src="img/wh.png" alt="WhatsApp">
-    </div>
-
-    <div id="wa-popup">
-        <div class="wa-top">
-            <img src="img/149071.png" class="wa-user" alt="Vikas Bhai">
-            <h3>Vikas Bhai</h3>
-            <span id="wa-close">&times;</span>
+            <div class="wa-footer">
+                <input type="text" id="wa_input" placeholder="Type your message here...">
+                <button id="wa_send_btn" class="send-btn">➤</button>
+            </div>
         </div>
-        <div class="wa-content">
-            <p>Apni game ka result hamari website par lagwane ke liye WhatsApp par sampark karein.</p>
-            <a href="https://wa.me/919266205063" class="wa-btn" target="_blank">
-                WHATSAPP ME<br>+91 9266205063
-            </a>
-        </div>
-        <div class="wa-footer">
-            <input type="text" id="wa_input" placeholder="Type your message here...">
-            <button id="wa_send_btn" class="send-btn">➤</button>
-        </div>
-    </div>
 
-    <!-- STYLES FOR WHATSAPP WIDGET -->
-    <style>
-        #wa-icon {
-            position: fixed;
-            bottom: 110px;
-            right: 20px;
-            background: #25D366;
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            cursor: pointer;
-            box-shadow: 0 0 10px #00000050;
-            z-index: 999;
-        }
-        #wa-icon img {
-            width: 35px;
-            height: 35px;
-        }
-        #wa-icon .badge {
-            position: absolute;
-            top: -5px;
-            right: -5px;
-            background: red;
-            padding: 3px 8px;
-            color: white;
-            font-size: 12px;
-            border-radius: 20px;
-        }
-        #wa-popup {
-            position: fixed;
-            bottom: 90px;
-            right: 20px;
-            width: 260px;
-            background: #ffffff;
-            border-radius: 12px;
-            box-shadow: 0px 0px 20px #00000040;
-            display: none;
-            z-index: 1000;
-            overflow: hidden;
-        }
-        .wa-top {
-            background: #0397D6;
-            color: white;
-            text-align: center;
-            padding: 7px;
-            position: relative;
-        }
-        .wa-top .wa-user {
-            width: 45px;
-            height: 45px;
-            border-radius: 50%;
-        }
-        .wa-top h3 {
-            margin-top: 1px;
-            font-size: 17px;
-            font-weight: bold;
-        }
-        #wa-close {
-            position: absolute;
-            right: 12px;
-            top: 5px;
-            font-size: 26px;
-            cursor: pointer;
-            font-weight: bold;
-            color: white;
-        }
-        .wa-content {
-            background: #0033A0;
-            color: white;
-            padding: 12px;
-            font-size: 15px;
-            line-height: 20px;
-        }
-        .wa-btn {
-            display: block;
-            background: #fdf400;
-            color: black;
-            padding: 5px;
-            border-radius: 8px;
-            text-align: center;
-            margin-top: 10px;
-            font-size: 15px;
-            font-weight: bold;
-            text-decoration: none;
-        }
-        .wa-footer {
-            display: flex;
-            background: #fff;
-            padding: 10px;
-            align-items: center;
-            border-top: 1px solid #eee;
-        }
-        .wa-footer input {
-            width: 78%;
-            padding: 7px;
-            border: none;
-            background: #f0f0f0;
-            border-radius: 8px;
-            margin-right: 10px;
-            font-size: 14px;
-        }
-        .send-btn {
-            width: 36px;
-            height: 36px;
-            background: #0397D6;
-            color: white;
-            border: none;
-            border-radius: 50%;
-            font-size: 18px;
-            cursor: pointer;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            box-shadow: 0 3px 6px #0002;
-        }
-        .refresh-btn {
-            border: #e7aa26 1px solid;
-            background: #fbc503;
-            color: red;
-            padding: 8px 15px;
-            font-weight: bold;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-        .disclaimer, .warning, .contact-info {
-            padding: 8px;
-            margin: 8px 0;
-            background: white;
-            border-radius: 4px;
-        }
-        .section-title {
-            padding: 10px 0;
-            margin: 0;
-            font-size: 18px;
-        }
-        .stop22 {
-            width: 100%;
-            padding: 15px;
-            border: 1px solid #339966;
-            background-color: #33CC99;
-            color: white;
-            text-align: center;
-            border-radius: 4px;
-        }
-    </style>
+        <!-- STYLES FOR WHATSAPP WIDGET -->
+        <style>
+            #wa-icon {
+                position: fixed;
+                bottom: 110px;
+                right: 20px;
+                background: #25D366;
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                box-shadow: 0 0 10px #00000050;
+                z-index: 999;
+            }
+            #wa-icon img {
+                width: 35px;
+                height: 35px;
+            }
+            #wa-icon .badge {
+                position: absolute;
+                top: -5px;
+                right: -5px;
+                background: red;
+                padding: 3px 8px;
+                color: white;
+                font-size: 12px;
+                border-radius: 20px;
+            }
+            #wa-popup {
+                position: fixed;
+                bottom: 90px;
+                right: 20px;
+                width: 260px;
+                background: #ffffff;
+                border-radius: 12px;
+                box-shadow: 0px 0px 20px #00000040;
+                display: none;
+                z-index: 1000;
+                overflow: hidden;
+            }
+            .wa-top {
+                background: #0397D6;
+                color: white;
+                text-align: center;
+                padding: 7px;
+                position: relative;
+            }
+            .wa-top .wa-user {
+                width: 45px;
+                height: 45px;
+                border-radius: 50%;
+            }
+            .wa-top h3 {
+                margin-top: 1px;
+                font-size: 17px;
+                font-weight: bold;
+            }
+            #wa-close {
+                position: absolute;
+                right: 12px;
+                top: 5px;
+                font-size: 26px;
+                cursor: pointer;
+                font-weight: bold;
+                color: white;
+            }
+            .wa-content {
+                background: #0033A0;
+                color: white;
+                padding: 12px;
+                font-size: 15px;
+                line-height: 20px;
+            }
+            .wa-btn {
+                display: block;
+                background: #fdf400;
+                color: black;
+                padding: 5px;
+                border-radius: 8px;
+                text-align: center;
+                margin-top: 10px;
+                font-size: 15px;
+                font-weight: bold;
+                text-decoration: none;
+            }
+            .wa-footer {
+                display: flex;
+                background: #fff;
+                padding: 10px;
+                align-items: center;
+                border-top: 1px solid #eee;
+            }
+            .wa-footer input {
+                width: 78%;
+                padding: 7px;
+                border: none;
+                background: #f0f0f0;
+                border-radius: 8px;
+                margin-right: 10px;
+                font-size: 14px;
+            }
+            .send-btn {
+                width: 36px;
+                height: 36px;
+                background: #0397D6;
+                color: white;
+                border: none;
+                border-radius: 50%;
+                font-size: 18px;
+                cursor: pointer;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                box-shadow: 0 3px 6px #0002;
+            }
+            .refresh-btn {
+                border: #e7aa26 1px solid;
+                background: #fbc503;
+                color: red;
+                padding: 8px 15px;
+                font-weight: bold;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+            .disclaimer, .warning, .contact-info {
+                padding: 8px;
+                margin: 8px 0;
+                background: white;
+                border-radius: 4px;
+            }
+            .section-title {
+                padding: 10px 0;
+                margin: 0;
+                font-size: 18px;
+            }
+            .stop22 {
+                width: 100%;
+                padding: 15px;
+                border: 1px solid #339966;
+                background-color: #33CC99;
+                color: white;
+                text-align: center;
+                border-radius: 4px;
+            }
+            .board-section {
+                margin-top: 30px;
+            }
+            .info-section {
+                width: 100%;
+                background: white;
+                padding: 15px;
+                margin-bottom: 20px;
+                border-radius: 4px;
+            }
+        </style>
 
-    <!-- SCRIPTS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-messaging.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+        <!-- SCRIPTS -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-messaging.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
 
-    <script>
-        $(document).ready(function () {
-            bindGameName();
-            setInterval(function () {
+        <script>
+            $(document).ready(function () {
                 bindGameName();
-            }, 60000);
-            setupDateTime();
-        });
-
-        function setupDateTime() {
-            const now = new Date();
-            const istTime = new Intl.DateTimeFormat('en-US', {
-                timeZone: 'Asia/Kolkata',
-                year: 'numeric',
-                month: 'long',
-                day: '2-digit',
-                hour: '2-digit',
-                minute: '2-digit',
-                second: '2-digit',
-                hour12: false
-            }).format(now);
-
-            const isoTime = new Date(now.toLocaleString('en-US', { timeZone: 'Asia/Kolkata' }))
-                .toISOString().slice(0, 19);
-
-            document.getElementById("satta-headingto").setAttribute("datetime", `${isoTime}+05:30`);
-            document.getElementById("satta-headingto").innerText = `${istTime} IST`;
-        }
-
-        function formatDate(date) {
-            const days = ["Sun.", "Mon.", "Tue.", "Wed.", "Thu.", "Fri.", "Sat."];
-            const d = date.getDate();
-
-            function suffix(n) {
-                if (n % 10 == 1 && n != 11) return "st";
-                if (n % 10 == 2 && n != 12) return "nd";
-                if (n % 10 == 3 && n != 13) return "rd";
-                return "th";
-            }
-
-            return days[date.getDay()] + " " + d + suffix(d);
-        }
-
-        let today = new Date();
-        let yesterday = new Date();
-        yesterday.setDate(today.getDate() - 1);
-
-        document.getElementById("todayDate").innerText = formatDate(today);
-        document.getElementById("yesterdayDate").innerText = formatDate(yesterday);
-
-        document.getElementById("satta-heading2").innerText =
-            `Timewise Superfast Satta King Results of ${new Date().toLocaleString('en-US', { month: 'long' })} ${String(new Date().getDate()).padStart(2, '0')}, ${new Date().getFullYear()}`;
-
-        function convertTime12to24(time12h) {
-            var parts = time12h.split(' ');
-            var time = parts[0];
-            var modifier = parts[1];
-            var t = time.split(':');
-            var hours = parseInt(t[0]);
-            var minutes = parseInt(t[1]);
-
-            if (modifier == "PM" && hours < 12) hours += 12;
-            if (modifier == "AM" && hours == 12) hours = 0;
-
-            return { h: hours, m: minutes };
-        }
-
-        function bindGameName() {
-            $.ajax({
-                type: "POST",
-                url: "Index.aspx/BindGameName",
-                data: '{}',
-                contentType: "application/json; charset=utf-8",
-                dataType: "json",
-                success: function (response) {
-                    var data = JSON.parse(response.d);
-                    $("#LiveGames").html('');
-                    $("#NextGames").html('');
-                    $("#RestGames").html('');
-
-                    var now = new Date();
-                    var startIndex = -1;
-
-                    $.each(data, function (i) {
-                        var t = convertTime12to24(this.CatTime);
-                        var gameTime = new Date();
-                        gameTime.setHours(t.h);
-                        gameTime.setMinutes(t.m);
-                        gameTime.setSeconds(0);
-
-                        if (now >= gameTime) {
-                            startIndex = i;
-                        }
-                    });
-
-                    if (startIndex == -1) startIndex = 0;
-
-                    $.each(data, function (index) {
-                        var className = this.CatName.replace(/\s+/g, '-');
-                        var row =
-                            '<tr class="game-result highlight bg-' + className + '">' +
-                            '<td class="game-details">' +
-                            '<h3 class="game-name">' + this.CatName + '</h3>' +
-                            '<h3 class="game-time">at (' + this.CatTime + ')</h3>' +
-                            '<h3 class="game-link"><a href="satta-king-record-chart.aspx?CatId=' + this.CatId + '">Record Chart</a></h3>' +
-                            '</td>' +
-                            '<td class="yesterday-number"><h3>' + this.YesterDayResult + '</h3></td>' +
-                            '<td class="today-number"><h3>' + (this.TodayResult == "Xx" ? "XX" : this.TodayResult) + '</h3></td>' +
-                            '</tr>';
-
-                        if (index >= startIndex && index < startIndex + 4) {
-                            $("#LiveGames").append(row);
-                        } else if (index >= startIndex + 4 && index < startIndex + 8) {
-                            $("#NextGames").append(row);
-                        } else {
-                            $("#RestGames").append(row);
-                        }
-                    });
-                }
+                setInterval(function () {
+                    bindGameName();
+                }, 60000);
+                setupDateTime();
             });
-        }
 
-        // WhatsApp Widget
-        document.getElementById("wa-icon").onclick = function () {
-            document.getElementById("wa-popup").style.display = "block";
-        };
+            function setupDateTime() {
+                const now = new Date();
+                const istTime = new Intl.DateTimeFormat('en-US', {
+                    timeZone: 'Asia/Kolkata',
+                    year: 'numeric',
+                    month: 'long',
+                    day: '2-digit',
+                    hour: '2-digit',
+                    minute: '2-digit',
+                    second: '2-digit',
+                    hour12: false
+                }).format(now);
 
-        document.getElementById("wa-close").onclick = function () {
-            document.getElementById("wa-popup").style.display = "none";
-        };
+                const isoTime = new Date(now.toLocaleString('en-US', { timeZone: 'Asia/Kolkata' }))
+                    .toISOString().slice(0, 19);
 
-        document.getElementById("wa_send_btn").onclick = function () {
-            let msg = document.getElementById("wa_input").value;
-            let phone = "919654025991";
-
-            if (msg.trim() !== "") {
-                window.open(`https://wa.me/${phone}?text=${encodeURIComponent(msg)}`, "_blank");
-                document.getElementById("wa_input").value = "";
+                document.getElementById("satta-headingto").setAttribute("datetime", `${isoTime}+05:30`);
+                document.getElementById("satta-headingto").innerText = `${istTime} IST`;
             }
-        };
-    </script>
 
+            function formatDate(date) {
+                const days = ["Sun.", "Mon.", "Tue.", "Wed.", "Thu.", "Fri.", "Sat."];
+                const d = date.getDate();
+
+                function suffix(n) {
+                    if (n % 10 == 1 && n != 11) return "st";
+                    if (n % 10 == 2 && n != 12) return "nd";
+                    if (n % 10 == 3 && n != 13) return "rd";
+                    return "th";
+                }
+
+                return days[date.getDay()] + " " + d + suffix(d);
+            }
+
+            let today = new Date();
+            let yesterday = new Date();
+            yesterday.setDate(today.getDate() - 1);
+
+            document.getElementById("todayDate").innerText = formatDate(today);
+            document.getElementById("yesterdayDate").innerText = formatDate(yesterday);
+
+            document.getElementById("satta-heading2").innerText =
+                `Timewise Superfast Satta King Results of ${new Date().toLocaleString('en-US', { month: 'long' })} ${String(new Date().getDate()).padStart(2, '0')}, ${new Date().getFullYear()}`;
+
+            function convertTime12to24(time12h) {
+                var parts = time12h.split(' ');
+                var time = parts[0];
+                var modifier = parts[1];
+                var t = time.split(':');
+                var hours = parseInt(t[0]);
+                var minutes = parseInt(t[1]);
+
+                if (modifier == "PM" && hours < 12) hours += 12;
+                if (modifier == "AM" && hours == 12) hours = 0;
+
+                return { h: hours, m: minutes };
+            }
+
+            function bindGameName() {
+                $.ajax({
+                    type: "POST",
+                    url: "Index.aspx/BindGameName",
+                    data: '{}',
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (response) {
+                        var data = JSON.parse(response.d);
+                        $("#BindGameName2").html('');
+
+                        $.each(data, function (index) {
+                            var className = this.CatName.replace(/\s+/g, '-');
+                            var row =
+                                '<tr class="game-result highlight bg-' + className + '">' +
+                                '<td class="game-details">' +
+                                '<h3 class="game-name">' + this.CatName + '</h3>' +
+                                '<h3 class="game-time">at (' + this.CatTime + ')</h3>' +
+                                '<h3 class="game-link"><a href="satta-king-record-chart.aspx?CatId=' + this.CatId + '">Record Chart</a></h3>' +
+                                '</td>' +
+                                '<td class="yesterday-number"><h3>' + this.YesterDayResult + '</h3></td>' +
+                                '<td class="today-number"><h3>' + (this.TodayResult == "Xx" ? "XX" : this.TodayResult) + '</h3></td>' +
+                                '</tr>';
+
+                            $("#BindGameName2").append(row);
+                        });
+                    },
+                    error: function (error) {
+                        console.log("Error loading games:", error);
+                    }
+                });
+            }
+
+            // WhatsApp Widget
+            document.getElementById("wa-icon").onclick = function () {
+                document.getElementById("wa-popup").style.display = "block";
+            };
+
+            document.getElementById("wa-close").onclick = function () {
+                document.getElementById("wa-popup").style.display = "none";
+            };
+
+            document.getElementById("wa_send_btn").onclick = function () {
+                let msg = document.getElementById("wa_input").value;
+                let phone = "919654025991";
+
+                if (msg.trim() !== "") {
+                    window.open(`https://wa.me/${phone}?text=${encodeURIComponent(msg)}`, "_blank");
+                    document.getElementById("wa_input").value = "";
+                }
+            };
+        </script>
+
+    </main>
 </body>
 </html>
